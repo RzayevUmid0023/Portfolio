@@ -1,0 +1,128 @@
+.Navbar_main_section{
+    background-color: white;
+    box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.27);
+    -webkit-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.27);
+    -moz-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.27);
+
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+}
+
+.Navbar_under_section{
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px 40px 50px;
+}
+
+.Navbar_under_section .logo h4{
+    color: #2d2e32;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+}
+
+.Navbar_under_section  ul{
+    display: flex;  
+}
+
+.Navbar_under_section  li{
+    list-style: none;
+}
+
+.Navbar_under_section  a{
+    text-decoration: none;
+    color: #323337;
+    font-weight: 600;
+    padding: 0px 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all .3s;
+} 
+
+
+.Navbar_under_section .links a:hover{
+    color: #007acc;
+
+}
+
+.icons{
+    font-size: 30px;
+    display: none;
+    background-color: white;
+    cursor: pointer;
+ }
+
+ .icon:hover{
+    color: #007acc;
+ }
+
+ button{
+    border: none;
+ }
+
+ .des_hidden{
+    display: none;
+    
+ }
+
+/*------------------- media query -------------*/
+
+@media screen and (max-width: 900px) {
+      .links{
+        display: none !important;
+      }
+
+      .icons{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+
+      .mob_hidden{
+        z-index: 98;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        background-color: rgb(245, 232, 207);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .mob_hidden li{
+        font-size: 4rem;
+        padding: 15px;
+      }
+
+      .mob_hidden  li{
+        list-style: none;
+    }
+
+    .mob_hidden  a{
+        text-decoration: none;
+        color: #323337;
+        font-weight: 600;
+        padding: 0px 12px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: all .3s;
+    } 
+
+    .mob_hidden a:hover{
+        color: #007acc;
+     }
+
+
+     @keyframes left-come { from {transform: translateX(-100%);} to {transform: translateX(0);}}
+
+     .mob_hidden { animation-name: left-come; animation-duration: 1s; animation-fill-mode: forwards;}
+
+     
+   }

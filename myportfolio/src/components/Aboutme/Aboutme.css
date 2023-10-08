@@ -1,0 +1,245 @@
+.Aboutme_main{
+    height: 70vh;
+    padding: 8rem 0;
+    display: flex;  
+
+}
+
+.About_main{
+    background-color:white;
+    
+}
+
+.first_picture{
+    position: relative;
+    width: 430px;
+    
+    }
+
+.first_picture .comp{
+    width: 430px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.secon_picture{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(249, 249, 249);
+    right: -50px;
+    bottom: -50px;
+    z-index: 90;
+}
+
+.secon_picture .About_svg{
+        width: 150px;
+        height: 150px;
+        animation: rotate 9s linear infinite   
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+      }
+}
+
+.About_png{
+    position: absolute;
+    bottom: 30px;
+    right: 55px;
+    width: 40px;
+    height: 40px;
+}
+
+
+.About_me_text{
+    padding: 0px 0rem 0px 6rem;
+}
+
+.About_me_text h5{
+    color: blue;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.About_me_text h4{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.About_me_text p{
+    color: gray;
+    font-size: 1rem;
+
+}
+
+/*----------------------- screen query ---------------------*/
+
+@media screen and (max-width: 1100px) {
+    
+
+    .Aboutme_main{
+         
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+
+    
+    }
+
+    .first_picture{
+        padding-top: 10rem;
+         
+    }
+    
+
+    .About_me_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5rem !important;
+        padding-bottom: 20rem !important;
+        padding: 0;
+    }
+
+    .About_me_text h5,h4,p{
+        text-align: center;
+    }
+}
+
+    @media screen and (max-width: 700px) {
+        .first_picture{
+            padding-top: 14rem;
+             
+        }
+
+        .first_picture{
+            position: relative;
+            width: 350px;
+            
+            }
+
+            .first_picture .comp{
+                width: 350px;
+            }
+
+            .secon_picture{
+           
+                width: 110px;
+                height: 110px;
+             
+                right: -30px;
+                bottom: -30px;
+                
+            }
+            
+            .secon_picture .About_svg{
+                    width: 110px;
+                    height: 110px;
+                    
+            }
+
+            .About_png{
+                position: absolute;
+                bottom: 30px;
+                right: 45px;
+                width: 30px;
+                height: 30px;
+            }
+    }
+
+    @media screen and (max-width: 600px) {
+        .first_picture{
+            padding-top: 20rem;
+             
+        }
+    }
+
+    @media screen and (max-width: 415px) {
+        .first_picture{
+            padding-top: 20rem;
+             
+        }
+
+        .first_picture{
+            position: relative;
+            width: 300px;
+            
+            }
+
+            .first_picture .comp{
+                width: 300px;
+            }
+
+            .secon_picture{
+           
+                width: 90px;
+                height: 90px;
+             
+                right: -25px;
+                bottom: -25px;
+                
+            }
+            
+            .secon_picture .About_svg{
+                    width: 90px;
+                    height: 90px;
+                    
+            }
+
+            .About_png{
+                position: absolute;
+                bottom: 30px;
+                right: 35px;
+                width: 25px;
+                height: 25px;
+            }
+    }
+
+    @media screen and (max-width: 370px) {
+        .first_picture{
+            padding-top: 20rem;
+             
+        }
+
+        .first_picture{
+            position: relative;
+            width: 260px;
+            
+            }
+
+            .first_picture .comp{
+                width: 260px;
+            }
+
+            .secon_picture{
+           
+                width: 80px;
+                height: 80px;
+             
+                right: -20px;
+                bottom: -20px;
+                
+            }
+            
+            .secon_picture .About_svg{
+                    width: 80px;
+                    height: 80px;
+                    
+            }
+
+            .About_png{
+                position: absolute;
+                bottom: 30px;
+                right: 30px;
+                width: 23px;
+                height: 23px;
+            }
+    }

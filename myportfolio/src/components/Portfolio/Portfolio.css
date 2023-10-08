@@ -1,0 +1,149 @@
+.Portfo_main{
+    background-color: #f9f9f9;
+    padding-bottom: 4rem;
+    padding-top: 8rem;
+}
+
+
+.Portfolio_case_right{
+  margin-bottom: 5rem;    
+}
+
+
+
+.Portfolio_main h5{
+    color: blue;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 40px 0px 10px 0px;
+ }
+
+.Portfolio_main h3{
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 10px 0px;
+    margin-bottom: 5rem ;
+}
+
+
+.Portfolio_case_right{
+    display: flex;
+    background-color: white;
+     border-radius: 20px;
+     overflow: hidden;
+    
+     box-shadow: -10px -8px 13px -5px rgba(0,0,0,0.24);
+-webkit-box-shadow: -10px -8px 13px -5px rgba(0,0,0,0.24);
+-moz-box-shadow: -10px -8px 13px -5px rgba(0,0,0,0.24);
+     
+}
+
+.Portfolio_case_right .Photo{
+    width: 55%;
+    padding: 20px;
+    height: 430px;
+      border-radius: 20px;
+     cursor: pointer;
+     z-index: 5;
+     overflow: hidden ;
+      
+   }
+
+.Portfolio_case_right .Photo img{
+    width: 100%;
+    border-radius: 20px;
+    transition: all 8s ease-in-out;  
+    transform: translate3d(0px, 0px, 0px); 
+    z-index: 0;
+  
+}   
+
+.Portfolio_case_right .Photo:hover img{
+    transform: translate3d(0px, -85%, 0px); 
+
+}
+
+.Portfolio_case_right .Text_right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.Portfolio_case_right .Text_right .Head h2{
+    font-size: 1.2rem;
+    padding: 20px 10px;
+}
+
+.Portfolio_case_right .Text_right .Text p{
+    font-size: 1.2rem;
+    color: gray;
+    text-align: center;
+ }
+
+ .Portfolio_case_right .Text_right .Box{
+    display: flex;
+    align-items:center ;
+    margin-top: 2rem;
+
+ }
+
+ .Portfolio_case_right .Text_right .Box .box_item{
+        padding: 10px 20px;
+        margin: 0 20px;
+        font-weight: 600;
+        
+        box-shadow: -6px -6px 12px 0px rgba(0,0,0,0.3);
+        -webkit-box-shadow: -6px -6px 12px 0px rgba(0,0,0,0.3);
+        -moz-box-shadow: -6px -6px 12px 0px rgba(0,0,0,0.3);
+            
+ }
+
+ .Portfolio_case_right .Text_right .Link{
+    display: flex;
+    margin-top: 30px;
+
+ }
+
+ .Portfolio_case_right .Text_right .Link a{
+    padding: 10px 40px;
+    font-size: 1.2rem;cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+ }
+
+ .Portfolio_case_right .Text_right .Link a:hover{
+        color: blue;
+ }
+
+
+
+ /*--------------------- Query Selector -------------------*/
+
+ @media screen and (max-width: 1000px) {
+    .Portfolio_case_right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Portfolio_case_right .Photo{
+        order: 1;
+        width: 100%;
+    }
+
+    .Portfolio_case_right .Text_right{
+         padding: 4rem 2rem;
+        order: 2;
+        width: 100%;
+    }
+
+    .Portfolio_main{
+         text-align: center;
+    }
+
+ }
