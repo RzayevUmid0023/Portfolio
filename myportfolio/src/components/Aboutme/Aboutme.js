@@ -1,17 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Aboutme.css'
 import '../../App.css'
 import image1 from '../../Photo/Aboutme1.webp'
 import image2 from '../../Photo/Aboutme2.png'
 import Aboutsvg from '../../Photo/Aboutme.svg'
 
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function Aboutme() {
+
+    useEffect(()=>{
+        Aos.init({duration:3000})
+    },[])
   return (
     <>
 
-    <div className='About_main'>
-        <div className='Aboutme_main section-margin'>
+    <div className='About_main ' data-aos="fade-up">
+        <div className='Aboutme_main section-margin' >
 
             <div className='About_me_picture'>
                 <div className='first_picture'>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Portfolio.css'
 import '../../App.css'
 import photo1 from '../../Photo/portfolio1.webp'
@@ -7,9 +7,16 @@ import photo2 from '../../Photo/Portfolio2.webp'
 import {  FiGithub } from "react-icons/fi";
 import {  BsBoxArrowUpRight } from "react-icons/bs";
 
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 
 function Portfolio() {
+
+    useEffect(()=>{
+        Aos.init( {duration: 2000});
+    }, []
+    )
   return (
     <>
     <div className='Portfo_main'>
@@ -17,7 +24,7 @@ function Portfolio() {
             <h5>PORTFOLIO</h5>
             <h3>Each project is a unique piece of development 🧩 </h3>
 
-            <div className='Portfolio_case_right'>
+            <div className='Portfolio_case_right' data-aos="fade-right">
                 <div className='Photo'><img src={photo1} /></div>
                 <div className='Text_right'>
                     <div className='Head'><h2>CAR RENTAL 🚗</h2></div>
@@ -38,7 +45,7 @@ function Portfolio() {
 
 
 
-            <div className='Portfolio_case_right'>
+            <div className='Portfolio_case_right' data-aos="fade-left">
               
                 <div className='Text_right'>
                     <div className='Head'><h2>GYMATE 🏋️ </h2></div>

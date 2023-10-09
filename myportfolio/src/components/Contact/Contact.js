@@ -1,16 +1,20 @@
-import React from 'react'
-import './Contact.css'
+import React, { useEffect } from 'react'
+ import './Contact.css'
 import '../../App.css'
 import {  TbMap2 } from "react-icons/tb";
 import {  FiMail } from "react-icons/fi";
 
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function Contact() {
+    useEffect(()=>{
+        Aos.init({duration:3000})
+    },[])
   return (
     <>
 
-    <div className='Conta_main'>
+    <div className='Conta_main' data-aos="fade-up">
         <div className='Contact_main section-margin'>
             <h5>CONTACT</h5>
             <h3>Don't be shy! Hit me up! 👇</h3>

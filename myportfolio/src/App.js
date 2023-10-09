@@ -14,7 +14,7 @@ function App() {
   return (
    <>
     <Navbar />
-    <Frontendme />
+    <Frontendme />  
     <Aboutme />
     <Portfolio />
     <Contact />
