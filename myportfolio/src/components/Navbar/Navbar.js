@@ -15,7 +15,7 @@ function Navbar() {
     <>
       <div className='Navbar_main_section'>
 
-        <div className='Navbar_under_section  '>
+          <div className='Navbar_under_section  '>
             <div className='logo'>
               <h4>Umid.dev</h4>
             </div>
@@ -35,7 +35,7 @@ function Navbar() {
 
                   </button>
             </div>
-        </div>
+          </div>
 
       </div>
           <div className={menuOpen ?'mob_hidden' : 'des_hidden'} onClick={()=>setMenuOpen(false)}>
