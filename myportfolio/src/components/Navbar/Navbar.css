@@ -5,10 +5,11 @@
     -moz-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.27);
 
     position: fixed;
-    width: 100%;
+    width: 100% !important  ;
     top: 0px;
     left: 0px;
     z-index: 99;
+    overflow-x: hidden;
 }
 
 .Navbar_under_section{
@@ -127,3 +128,4 @@
 
      
    }
+   

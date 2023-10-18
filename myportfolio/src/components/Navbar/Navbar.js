@@ -12,7 +12,7 @@ function Navbar() {
   const [menuOpen , setMenuOpen] = useState(false)
   return (
     <>
-      <div className='Navbar_main_section'>
+      <div className='Navbar_main_section ' >
 
           <div className='Navbar_under_section  '>
             <div className='logo'>
