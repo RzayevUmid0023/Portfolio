@@ -15,7 +15,7 @@ function Aboutme() {
   return (
     <>
 
-    <div className='About_main ' data-aos="fade-up">
+    <div className='About_main ' data-aos="fade-up" id='aboutme'>
         <div className='Aboutme_main section-margin' >
 
             <div className='About_me_picture'>

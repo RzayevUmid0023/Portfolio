@@ -5,7 +5,7 @@ import Aboutme from './components/Aboutme/Aboutme'
 import Contact from './components/Contact/Contact'
 import Portfolio from './components/Portfolio/Portfolio';
 import Copyright from './components/Copyright/Copyright';
-
+ 
  
  
 
@@ -13,13 +13,14 @@ import Copyright from './components/Copyright/Copyright';
 function App() {
   return (
    <>
-    <Navbar />
-    <Frontendme />  
-    <Aboutme />
-    <Portfolio />
-    <Contact />
-    <Copyright />
-
+  
+      <Navbar />
+      <Frontendme />  
+      <Aboutme />
+      <Portfolio />
+      <Contact />
+      <Copyright />
+     
 
    </>
 

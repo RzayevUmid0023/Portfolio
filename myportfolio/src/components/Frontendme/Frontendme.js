@@ -15,7 +15,7 @@ import photo2 from '../../Photo/icons2.svg'
 function Frontendme() {
   return (
     <>  
-    <div className='main'>
+    <div className='main' id='home'>
         <div className='Frontendme_main section-margin'>
             <div className='First_section'>
                 <div className='First_section_text'>

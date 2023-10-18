@@ -19,7 +19,7 @@ function Portfolio() {
     )
   return (
     <>
-    <div className='Portfo_main'>
+    <div className='Portfo_main' id='portfolio'>
         <div className='Portfolio_main section-margin '>
             <h5>PORTFOLIO</h5>
             <h3>Each project is a unique piece of development 🧩 </h3>

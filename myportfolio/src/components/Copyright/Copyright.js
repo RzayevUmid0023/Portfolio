@@ -8,7 +8,7 @@ import {  LuLinkedin } from "react-icons/lu";
 
 function Copyright() {
   return (
-    <div className='Copy_main'>
+    <div className='Copy_main' id='copyright'>
             <div className='Copyright_main section-margin'>
                 <div className='Text'>
                     Copyright © 2023. All rights are reserved

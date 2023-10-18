@@ -14,7 +14,7 @@ function Contact() {
   return (
     <>
 
-    <div className='Conta_main' data-aos="fade-up">
+    <div className='Conta_main' data-aos="fade-up" id='contact'>
         <div className='Contact_main section-margin'>
             <h5>CONTACT</h5>
             <h3>Don't be shy! Hit me up! 👇</h3>
