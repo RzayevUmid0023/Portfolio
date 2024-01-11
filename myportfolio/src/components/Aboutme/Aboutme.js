@@ -34,7 +34,7 @@ function Aboutme() {
             <div className='About_me_text'>
                 <h5>About me</h5>
                 <h4>A dedicated Front-end Developer based in Azerbaijan 📍</h4>
-                <p>As an adept Front-End Developer based in Azerbaijan, I'm Umid Rzayev. With a robust history in freelancing and collaborative teamwork, I've refined my skills in HTML, CSS, JavaScript, React, and more. Specializing in crafting dynamic, responsive websites for a seamless user experience, I take pride in designing engaging interfaces. My approach involves using clean, optimized code while staying updated on the latest development tools and techniques.</p>
+                <p>As a skilled Front-End Developer in Azerbaijan, I'm Umid Rzayev. With a strong freelance and teamwork background, I've honed my expertise in HTML, CSS, JavaScript, React, and more. Specializing in dynamic, responsive website design, I take pride in creating engaging interfaces with clean, optimized code. I stay updated on the latest development tools and techniques to ensure top-notch results.</p>
             </div>
         </div> 
 
