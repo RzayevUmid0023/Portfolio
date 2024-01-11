@@ -20,7 +20,7 @@ function Frontendme() {
             <div className='First_section'>
                 <div className='First_section_text'>
                     <h4>Front-End React Developer<span></span></h4>
-                    <p>Hi, I'm Stefan Topalovic. A passionate Front-end React Developer based in Belgrade, Serbia. </p>
+                    <p>Hi, I'm Umid Rzayev, a passionate Front-end React Developer based in Azerbaijan. </p>
                     <ul>
                         <li><a><LuLinkedin /></a></li>
                         <li><a><FiGithub /></a></li>
